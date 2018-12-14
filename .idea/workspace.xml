@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e3bf31ff-f7b4-47fb-ba86-3a91ba7930b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelpPage.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/Header.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/Header.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/Header.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/Header.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/actions/expenses.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
           <entry key="development" value="1" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="2" />
-          <entry key="js" value="224" />
+          <entry key="js" value="229" />
           <entry key="json" value="10" />
           <entry key="md" value="1" />
           <entry key="scss" value="2" />
@@ -96,7 +92,7 @@
           <entry key=".env file" value="2" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="224" />
+          <entry key="JavaScript" value="229" />
           <entry key="Jest Snapshot" value="7" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -109,7 +105,7 @@
           <entry key="development" value="151" />
           <entry key="gitignore" value="94" />
           <entry key="html" value="60" />
-          <entry key="js" value="34522" />
+          <entry key="js" value="34834" />
           <entry key="json" value="362" />
           <entry key="md" value="239" />
           <entry key="scss" value="19" />
@@ -121,7 +117,7 @@
           <entry key=".env file" value="154" />
           <entry key="HTML" value="60" />
           <entry key="JSON" value="393" />
-          <entry key="JavaScript" value="34522" />
+          <entry key="JavaScript" value="34834" />
           <entry key="Markdown" value="239" />
           <entry key="PLAIN_TEXT" value="94" />
           <entry key="SCSS" value="19" />
@@ -134,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routers/AppRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -143,13 +139,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routers/PrivateRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="45">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routers/PublicRoute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LoginPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/expenses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/actions/expenses.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tests/components/ExpenseList.test.js" />
         <option value="$PROJECT_DIR$/src/tests/components/ExpenseListItem.test.js" />
         <option value="$PROJECT_DIR$/src/tests/components/ExpenseDashboardPage.js" />
         <option value="$PROJECT_DIR$/src/tests/components/NotFoundPage.test.js" />
@@ -207,21 +256,22 @@
         <option value="$PROJECT_DIR$/src/reducers/expenses.js" />
         <option value="$PROJECT_DIR$/src/tests/reducers/expenses.test.js" />
         <option value="$PROJECT_DIR$/src/components/EditExpensePage.js" />
-        <option value="$PROJECT_DIR$/src/actions/expenses.js" />
-        <option value="$PROJECT_DIR$/src/tests/actions/expenses.test.js" />
         <option value="$PROJECT_DIR$/src/firebase/firebase.js" />
-        <option value="$PROJECT_DIR$/src/components/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/tests/components/Header.test.js" />
         <option value="$PROJECT_DIR$/src/tests/components/LoginPage.test.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/reducers/auth.js" />
         <option value="$PROJECT_DIR$/src/actions/auth.js" />
         <option value="$PROJECT_DIR$/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/tests/reducers/auth.test.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/auth.test.js" />
-        <option value="$PROJECT_DIR$/src/routers/AppRouter.js" />
         <option value="$PROJECT_DIR$/src/routers/PrivateRoute.js" />
+        <option value="$PROJECT_DIR$/src/components/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/routers/AppRouter.js" />
+        <option value="$PROJECT_DIR$/src/routers/PublicRoute.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/actions/expenses.js" />
+        <option value="$PROJECT_DIR$/src/tests/actions/expenses.test.js" />
       </list>
     </option>
   </component>
@@ -273,7 +323,32 @@
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,12 +400,12 @@
       <updated>1543589493700</updated>
       <workItem from="1543589495167" duration="77825000" />
       <workItem from="1544029977602" duration="7204000" />
-      <workItem from="1544092591094" duration="162893000" />
+      <workItem from="1544092591094" duration="167781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247922000" />
+    <option name="totallyTimeSpent" value="252810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -385,15 +460,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ExpenseListFilters0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/components/ExpenseListFilters.test0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -632,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/expenses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddExpensePage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -683,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/components/Header.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -733,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="91" lean-forward="true" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/configureStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -767,16 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/actions/expenses.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="69" lean-forward="true" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,22 +840,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routers/AppRouter.js">
+    <entry file="file://$PROJECT_DIR$/src/routers/PrivateRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routers/PrivateRoute.js">
+    <entry file="file://$PROJECT_DIR$/src/routers/AppRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routers/PublicRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/expenses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/expenses.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
